@@ -8,7 +8,7 @@ public class VendedorTest {
     
     @Test
     public void testCalcularSueldo() {
-        Vendedor vendedor = new Vendedor("1234567890");
+    	Vendedor vendedor = new Vendedor("1234567890", "V");
         vendedor.setSueldoFijo(500.0);
         assertEquals(500.0, vendedor.calcularSueldo());
     }
